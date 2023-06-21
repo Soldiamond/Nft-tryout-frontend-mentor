@@ -1,0 +1,105 @@
+body{
+    background-size: 1440px;
+    background-color: hsl(216, 54%, 11%);
+    margin: 90px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .container{
+        background-color:  hsl(217, 54%, 11%);
+        box-shadow: 0 8px 16px hsl(216, 50%, 16%);
+        padding: 20px;
+        text-align: left;
+        border-radius: 1em;
+    }
+.zimg{
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.zimg:hover{
+    background-image:url("images/icon-view.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:  hsl(178, 100%, 50%);
+   position: absolute;
+    padding: 60px;
+    width: 6%;
+    height: 12%;
+    top: 17%;
+    left: 42.3%;
+    border-radius: 1em;
+}
+
+
+    .eq{
+        color: hsl(0, 0%, 100%);
+    }
+
+    .eq:hover{
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+    }
+
+    .oe{
+        color: hsl(215, 51%, 70%);
+        font-family: "outfit";
+        font-weight: 300;
+        font-size: 13px;
+        text-align: start;
+    }
+
+
+    .eth{
+        color: hsl(178, 100%, 50%);
+        margin-right:65px;
+        font-size: 12px;
+    }
+
+    .days{
+        color: hsl(215, 51%, 70%);
+        font-size: 12px;
+    }
+
+    .create{
+        color:hsl(215, 51%, 70%);
+        margin-right: 3px;
+        font-size: 12px;
+    }
+
+    .nrmal{
+        color:  hsl(0, 0%, 100%); 
+        font-size: 12px;
+    }
+
+    .nrmal:hover{
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+    }
+
+    hr{
+        border-bottom: 2px solid hsl(215, 32%, 27%);
+        margin-bottom: 10px;
+    }
+
+    .imgs{
+        display: inline block;
+        border: 1px solid silver;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 5px;
+    }
+
+    
+     .challenge { 
+        font-size: 11px; 
+        
+        color: white;    
+     }
+     .challenge a { 
+        color: hsl(228, 45%, 44%); 
+    }
